@@ -1,0 +1,8 @@
+﻿namespace crudAspNet.Models;
+
+public class BookModel
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string author { get; set; }
+}
